@@ -70,8 +70,9 @@ End the program and close the output image windows.
 
 ### iii)Shape of the Image
 
-<br>
-<br>
+![log](https://user-images.githubusercontent.com/75243072/160782250-bd20dc6a-c69a-4d70-be91-a6f0e2155b82.jpg)
+
+
 
 ### iv)Access rows and columns
 <br>
