@@ -20,26 +20,38 @@ Use imwrite(filename, image) to write the image.
 End the program and close the output image windows.
 ## Program:
 ```python
-# Developed By:
-# Register Number
+# Developed By:KUMARAN.B
+# Register Number:212220230026
 # To Read,display the image
 
-
+import cv2
+bw=cv2.imread("AM.jpeg",1)
+cv2.imshow('212220230026-kumaran',bw)
+cv2.waitKey(0)
+#GREY IMAGE
+gray=cv2.imread("AM.jpeg",0)
+cv2.imshow("greyimage",gray)
+cv2.waitKey(1)
 
 
 # To write the image
-
+cv2.imwrite("naturekumaran.jpeg",bw)
 
 
 
 
 # Find the shape of the Image
-
+print(bw.shape)
 
 
 
 # To access rows and columns
-
+import random
+for i in range(100):
+    for j in range(bw.shape[1]):
+        bw[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow('accessing row and column',bw)
+cv2.waitKey(0)
 
 
 
@@ -47,7 +59,11 @@ End the program and close the output image windows.
 # To cut and paste portion of image
 
 
-
+bw2=cv2.imread("AM.jpeg",1)
+tag=bw2[400:500,400:500]
+bw2[50:150,50:150]=tag
+cv2.imshow("cutting portion",bw2)
+cv2.waitKey(0)
 
 
 
@@ -59,28 +75,30 @@ End the program and close the output image windows.
 ## Output:
 
 ### i) Read and display the image
-
-<br>
-<br>
+![o1](https://user-images.githubusercontent.com/75243072/160784720-1cda2d08-b3bc-49e6-b3d4-88eb363b9ffd.png)
+### grey image
+![o2](https://user-images.githubusercontent.com/75243072/160784732-3e0fc9eb-3091-4072-a97d-6af3b01c42c4.png)
 
 ### ii)Write the image
+![o3](https://user-images.githubuserconten![o5](https://user-images.githubusercontent.com/75243072/160784751-8f7f8d22-ed27-4f82-a026-2901f4121a7a.png)
 
-<br>
-<br>
+
+
 
 ### iii)Shape of the Image
 
-![log](https://user-images.githubusercontent.com/75243072/160782250-bd20dc6a-c69a-4d70-be91-a6f0e2155b82.jpg)
+![o3](https://user-images.githubuserconten![o5](https://user-images.githubusercontent.com/75243072/160784751-8f7f8d22-ed27-4f82-a026-2901f4121a7a.png)
+
 
 
 
 ### iv)Access rows and columns
-<br>
-<br>
+
+![o4](https://user-images.githubusercontent.com/75243072/160784742-4e188c1f-5f56-45d2-8ae1-a9d082b3f949.png)
 
 ### v)Cut and paste portion of image
-<br>
-<br>
+
+![o5](https://user-images.githubusercontent.com/75243072/160785016-6fe8092e-33ce-4846-8697-eda5bf34173e.png)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
