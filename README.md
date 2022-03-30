@@ -33,17 +33,11 @@ gray=cv2.imread("AM.jpeg",0)
 cv2.imshow("greyimage",gray)
 cv2.waitKey(1)
 
-
 # To write the image
 cv2.imwrite("naturekumaran.jpeg",bw)
 
-
-
-
 # Find the shape of the Image
 print(bw.shape)
-
-
 
 # To access rows and columns
 import random
@@ -53,22 +47,12 @@ for i in range(100):
 cv2.imshow('accessing row and column',bw)
 cv2.waitKey(0)
 
-
-
-
 # To cut and paste portion of image
-
-
 bw2=cv2.imread("AM.jpeg",1)
 tag=bw2[400:500,400:500]
 bw2[50:150,50:150]=tag
 cv2.imshow("cutting portion",bw2)
 cv2.waitKey(0)
-
-
-
-
-
 
 
 ```
