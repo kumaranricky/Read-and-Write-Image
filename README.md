@@ -80,13 +80,15 @@ cv2.waitKey(0)
 ![o2](https://user-images.githubusercontent.com/75243072/160784732-3e0fc9eb-3091-4072-a97d-6af3b01c42c4.png)
 
 ### ii)Write the image
-![o3](https://user-images.githubusercontent.com/75243072/160785209-242d9b3d-661c-4dfb-a25e-e2fd3ffd901c.png)
+
+![o6](https://user-images.githubusercontent.com/75243072/160786128-413d06cb-c310-4631-a5ee-5cb16c4061f0.png)
 
 
 
 ### iii)Shape of the Image
 
-![o3](https://user-images.githubusercontent.com/75243072/160785209-242d9b3d-661c-4dfb-a25e-e2fd3ffd901c.png)
+
+![o3](https://user-images.githubusercontent.com/75243072/160786053-f4706e0e-06ed-4f67-bbe4-9bb1fefcd677.png)
 
 
 
