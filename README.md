@@ -1,4 +1,4 @@
-# READ AND WRITE AN IMAGE
+# 1.READ AND WRITE AN IMAGE
 ## AIM
 To write a python program using OpenCV to do the following image manipulations.
 i) Read, display, and write an image.
@@ -23,7 +23,6 @@ End the program and close the output image windows.
 # Developed By:KUMARAN.B
 # Register Number:212220230026
 # To Read,display the image
-
 import cv2
 bw=cv2.imread("AM.jpeg",1)
 cv2.imshow('212220230026-kumaran',bw)
@@ -32,13 +31,10 @@ cv2.waitKey(0)
 gray=cv2.imread("AM.jpeg",0)
 cv2.imshow("greyimage",gray)
 cv2.waitKey(1)
-
 # To write the image
 cv2.imwrite("naturekumaran.jpeg",bw)
-
 # Find the shape of the Image
 print(bw.shape)
-
 # To access rows and columns
 import random
 for i in range(100):
@@ -46,15 +42,12 @@ for i in range(100):
         bw[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
 cv2.imshow('accessing row and column',bw)
 cv2.waitKey(0)
-
 # To cut and paste portion of image
 bw2=cv2.imread("AM.jpeg",1)
 tag=bw2[400:500,400:500]
 bw2[50:150,50:150]=tag
 cv2.imshow("cutting portion",bw2)
 cv2.waitKey(0)
-
-
 ```
 ## Output:
 
@@ -70,7 +63,7 @@ cv2.waitKey(0)
 ### iii)Shape of the Image
 ![o3](https://user-images.githubusercontent.com/75243072/173726659-5a7b7c2c-9474-4315-8fb9-faea9906e561.png)
 
-### iv)Access rows and columns
+### <br><br><br><br><br><br><br><br><br><br><br> iv)Access rows and columns
 ![o4](https://user-images.githubusercontent.com/75243072/173726743-338a4e6e-f098-46d2-8fb0-703e30dd6bb7.png)
 
 ### v)Cut and paste portion of image
